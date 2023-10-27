@@ -1,0 +1,42 @@
+    1  echo $0
+    2  ls
+    3  cd CompSci131
+    4  ls
+    5  mkdir 'WorkSheet 5'
+    6  mv UnitedStates.txt 'WorkSheet 5'/UnitedStates.txt
+    7  ls
+    8  cd 'WorkSheet 5'
+    9  ls
+   10  cat UnitedStates.txt
+   11  mkdir 'United States'
+   12  ls
+   -To grep the Entertainment Entries:  13  for line in $(grep "Entertainment" UnitedStates.txt); do     echo "$line" >> Entertainment.txt; done
+   14  ls
+   15  cat Entertainment.txt
+   -To count entries in Entertainment: 16  wc -l Entertainment.txt
+   -To grep Music Entries: 17  for line in $(grep "Music" UnitedStates.txt); do     echo "$line" >> Music.txt; done
+   18  ls
+   -To count entries in Music: 19  wc -l Music.txt
+   -To grep Gaming Entries: 20  for line in $(grep "Gaming" UnitedStates.txt); do     echo "$line" >> Gaming.txt; done
+   -To count Gaming Entries: 21  wc -l Gaming.txt
+   -To grep Comedy entries: 22  for line in $(grep "Comedy" UnitedStates.txt); do     echo "$line" >> Comedy.txt; done
+   -To count Comedy Entries: 23  wc -l Comedy.txt
+   24  ls
+   25  mv Comedy.txt 'United States'/Comedy.txt
+   26  ls
+   27  cd 'United States'
+   28  ls
+   29  cd ..
+   30  mv Music.txt 'United States'/Music.txt
+   31  mv Entertainment.txt 'United States'/Entertainment.txt
+   32  ls
+   33  mv Gaming.txt 'United States'/Gaming.txt
+   34  ls
+   35  cd 'United States'
+   36  ls
+   37  cd .. 
+   38  touch ws5.txt
+   39  vi ws5.txt
+   40  vi ws5.txt
+   41  vi ws5.txt
+   42  history > cmds.log

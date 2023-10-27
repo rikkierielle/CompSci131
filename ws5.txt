@@ -1,0 +1,6 @@
+United States Categories and Number of Entries
+
+1. "WorkSheet 5/United States/Music.txt" = 306 
+2. "WorkSheet 5/United States/Gaming.txt" = 69
+3. "WorkSheet 5/United States/Comedy.txt" = 118
+4. "WorkSheet 5/United States/Entertainment.txt = 504 
